@@ -8,6 +8,7 @@ public class VideoclubJavaSpringbootApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(VideoclubJavaSpringbootApplication.class, args);
+
 	}
 
 }
