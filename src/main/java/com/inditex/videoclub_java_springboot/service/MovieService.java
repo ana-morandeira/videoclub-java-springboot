@@ -8,8 +8,6 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
-
 @Service
 public class MovieService {
 
@@ -59,6 +57,4 @@ public class MovieService {
         // Si no existe la película, enviar un mensaje de error al usuario
         throw new RuntimeException("Película no encontrada en la BBDD con id: " + id);
     }
-    }
-
-
+}
