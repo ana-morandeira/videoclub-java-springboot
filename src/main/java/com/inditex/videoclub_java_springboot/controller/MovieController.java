@@ -34,4 +34,5 @@ public class MovieController {
     public List<Movie> getAllByOrder(){
         return movieService.getAllByOrder();
     }
+
 }
