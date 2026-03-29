@@ -113,7 +113,6 @@ El backend está conectado con el frontend desarrollado en React, disponible en:
 
 La configuración CORS permite las peticiones desde `http://localhost:5173`.
 
-> 📸 Ver captura del frontend en la carpeta `/screenshots`
 
 ---
 
